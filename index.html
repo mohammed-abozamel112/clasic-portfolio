@@ -1245,34 +1245,7 @@
                 </svg>
               </div>
             </div>
-            <form id="contact-form" action="https://formspree.io/f/mkgwekbo" method="post">
-              <!--
-              <div class="row py-3">
-                <div
-                  class="mb-3 col-12 col-sm-12 col-md-6 col-lg-6 position-relative py-3 py-sm-3 py-md-3 py-lg-3"
-                >
-                  <input
-                    class="input w-100"
-                    name="fname"
-                    id="fname"
-                    type="text"
-                    required
-                  />
-                  <label class="textUser">First Name</label>
-                </div>
-                <div
-                  class="mb-3 col-12 col-sm-12 col-md-6 col-lg-6 position-relative py-3 py-sm-3 py-md-3 py-lg-3"
-                >
-                  <input
-                    class="input w-100"
-                    name="lname"
-                    id="lname"
-                    type="text"
-                    required
-                  />
-                  <label class="textUser">Last Name</label>
-                </div>
-              -->
+            <form id="contact-form" id="my-form" action="https://formspree.io/f/mkgwekbo" method="post">
                 <div
                   class="mb-3 col-12 col-sm-12 col-md-12 col-lg-12 position-relative py-3 py-sm-3 py-md-3 py-lg-3"
                 >
@@ -1298,11 +1271,12 @@
                   ></textarea>
                 </div>
                 <button
-                  type="submit"
+                  type="submit" id="my-form-button"
                   class="btn btn-primary py-4 col-4 m-auto rounded rounded-5"
                 >
                   Submit
                 </button>
+               <p id="my-form-status"></p>
               </div>
             </form>
           </div>
