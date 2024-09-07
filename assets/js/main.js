@@ -96,7 +96,7 @@ jQuery(document).ready(function ($) {
           });
     });
 }); */
-
+/*
 document.addEventListener("DOMContentLoaded", (event) => {
   emailjs.init("epbrPdD3txPahqE7R"); // Replace with your EmailJS user ID
 
@@ -124,6 +124,6 @@ document.addEventListener("DOMContentLoaded", (event) => {
           console.error("Error:", error);
         });
     });
-});
+});*/
 
 /* mailjs */
